@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+#brand{
+    font-size: 1.5rem;
+    color: darkblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+nav ul li{
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+    border: 5px solid blue;
+    border-radius: 10%;
+    margin: auto;
+    width: 60%;
+}
+
+.product figure img{
+    width: 600px;
+}
+
+.product button{
+    background-color: transparent;
+    border: none;
+    color: darkblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.product button a{
+    text-decoration: none;
+}
+.product button:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.proscons{
+    display: flex;
+    justify-content: space-around;
+    padding: 8rem;
+}
+
+.proscons figure img{
+    padding-top: 10rem;
+    float: right;
+}
+
+.proscons .pros{
+    border: none;
+    border-radius: 5%;
+    background-color: lightblue;
+}
+
+.proscons .cons{
+    border: none;
+    border-radius: 5%;
+    background-color: lightcoral;
+}
+
+.learn-more{
+    text-align: center;
+    padding: 0 5rem 0 5rem;
+    border: 2px solid lightpink;
+    border-radius: 5%;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+.howtouse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 5%;
+    background-color: aliceblue;
+    margin: auto;
+    width: 80%;
+   
+}
+
+.howtouse .instructions{
+    padding: 2rem;
+}
+
+.howtouse figure img{
+    width: 600px;
+}
+
+@media screen and (max-width: 960px) {
+    .product{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .product .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .product button {
+        padding: 1rem;
+    }
+
+    .product figure img{
+        width: 400px;
+    }
+
+    .proscons{
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+   
+    .proscons figure img{
+        width: 400px;
+        height: 400px;
+        float: left;
+    }
+
+    .learn-more{
+        padding: 2rem;
+    }
+
+    .howtouse{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .howtouse .instructions{
+        padding: 0;
+    }
+
+    .howtouse figure img{
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .product figure img{
+        width: 300px;
+    }
+}
+
