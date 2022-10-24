@@ -154,8 +154,8 @@ main{
         text-align: center;
     }
     .production img{
-        width: 400px;
-        height: 400px;
+        width: 80%;
+        height: auto;
         display: block;
         margin:auto;
     }

@@ -159,7 +159,8 @@ h3{
     .proscons figure img{
         width: 400px;
         height: 400px;
-        float: left;
+        float: right;
+        padding-top: 5rem;
     }
 
     .learn-more{
@@ -188,6 +189,13 @@ h3{
 
     nav ul{
         flex-direction: column;
+    }
+
+    .proscons figure img{
+        width: 200px;
+        height: 300px;
+        float: right;
+        padding-top: 2.5rem;
     }
 }
 
