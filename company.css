@@ -13,7 +13,7 @@ nav{
     align-items: center;
 }
 
-#brand{
+#brand h1{
     font-size: 1.5rem;
     color: darkblue;
     font-weight: bolder;
@@ -164,4 +164,10 @@ main{
         margin: 1rem auto;
     }
 
+}
+
+@media screen and (max-width:500px) {
+    nav ul{
+        flex-direction: column;
+    }
 }

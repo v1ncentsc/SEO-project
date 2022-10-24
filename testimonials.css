@@ -13,7 +13,7 @@ nav{
     align-items: center;
 }
 
-#brand{
+#brand h1{
     font-size: 1.5rem;
     color: darkblue;
     font-weight: bolder;
@@ -103,5 +103,11 @@ nav ul li a{
     .col{
         flex: 100%;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav ul{
+        flex-direction: column;
     }
 }
